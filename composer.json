@@ -20,11 +20,18 @@
         "symfony/process": "~2.8|3.0.*",
         "symfony/security": "~2.8|3.0.*",
         "symfony/translation": "~2.8|3.0.*",
-        "symfony/twig-bridge": "~2.8|3.0.*",
-        "symfony/validator": "~2.8|3.0.*"
+        "symfony/twig-bridge": "~3.2",
+        "symfony/validator": "~2.8|3.0.*",
+        "doctrine/dbal": "~2.2",
+        "dflydev/doctrine-orm-service-provider": "^2.0"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": { "": "src/" },
+        "psr-4": {
+            "Controllers\\": "src/Controllers",
+            "Entities\\": "src/Entities",
+            "Services\\": "src/Services"
+        }
     },
     "extra": {
         "branch-alias": {

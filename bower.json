@@ -1,0 +1,14 @@
+{
+  "name": "arizona",
+  "homepage": "https://github.com/supwr/arizona_task",
+  "authors": [
+    "Marcelo Rodrigues <marcelo.rodriguespires@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
