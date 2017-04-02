@@ -41,4 +41,4 @@ The app's database parameters can be changed at ```src/app.php```
 
 Once there just click on "Load Table". After that, the screen will reload with the countries imported from the remote source.
 
-![Image](web/assests/img/home.jpg?raw=true)
+![Image](web/assets/img/home.jpg?raw=true)
